@@ -1,0 +1,90 @@
+﻿gtest.lib(gtest-all.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+gtest.lib(gtest-all.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,struct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 gtest.lib(gtest-all.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 gtest.lib(gtest-all.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ) 已经在 gtest.lib(gtest-all.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(int)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z) 已经在 gtest.lib(gtest-all.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::operator<<(unsigned __int64)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z) 已经在 gtest.lib(gtest-all.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struct std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ) 已经在 gtest.lib(gtest-all.obj) 中定义
+msvcprtd.lib(MSVCP140D.dll) : error LNK2005: "public: virtual __cdecl std::basic_iostream<char,struct std::char_traits<char> >::~basic_iostream<char,struct std::char_traits<char> >(void)" (??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) 已经在 gtest.lib(gtest-all.obj) 中定义
+libcpmt.lib(locale0.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(locale0.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPEAV_Facet_base@1@@Z) 已经在 msvcprtd.lib(locale0_implib.obj) 中定义
+libcpmt.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@_Locinfo@std@@SAXPEAV12@PEBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@@SAXPEAV12@@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(cerr.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_traits<char> >(void)" (??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *)" (?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *)" (?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(cerr.obj) : error LNK2005: "public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(locale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(locale.obj) : error LNK2005: "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2005: "public: int __cdecl std::ios_base::flags(void)const " (?flags@ios_base@std@@QEBAHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(__int64)" (?width@ios_base@std@@QEAA_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(locale.obj) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(void)const " (?width@ios_base@std@@QEBA_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(iosptrs.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(iosptrs.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(xlock.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(xlock.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QEAA@H@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QEAA@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xthrow.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(xthrow.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xlength_error(char const *)" (?_Xlength_error@std@@YAXPEBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xthrow.obj) : error LNK2005: "void __cdecl std::_Xout_of_range(char const *)" (?_Xout_of_range@std@@YAXPEBD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(wlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (?_Getdays@_Locinfo@std@@QEBAPEBDXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: int __cdecl std::ios_base::flags(void)const " (?flags@ios_base@std@@QEBAHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(__int64)" (?width@ios_base@std@@QEAA_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(void)const " (?width@ios_base@std@@QEBA_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(xlocale.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (?_Getdays@_Locinfo@std@@QEBAPEBDXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: int __cdecl std::ios_base::flags(void)const " (?flags@ios_base@std@@QEBAHXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(__int64)" (?width@ios_base@std@@QEAA_J_J@Z) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(void)const " (?width@ios_base@std@@QEBA_JXZ) 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(xdateord.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(xdateord.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(xwctomb.obj) : error LNK2005: _Getcvt 已经在 msvcprtd.lib(MSVCP140D.dll) 中定义
+libcpmt.lib(winapisupp.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(winapisupp.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(StlCompareStringA.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(StlCompareStringA.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(winapinls.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(winapinls.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(StlCompareStringW.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(StlCompareStringW.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(StlLCMapStringW.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(StlLCMapStringW.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+libcpmt.lib(StlLCMapStringA.obj) : error LNK2038: 检测到“_ITERATOR_DEBUG_LEVEL”的不匹配项: 值“0”不匹配值“2”(test.obj 中)
+libcpmt.lib(StlLCMapStringA.obj) : error LNK2038: 检测到“RuntimeLibrary”的不匹配项: 值“MT_StaticRelease”不匹配值“MDd_DynamicDebug”(test.obj 中)
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+C:\Users\Administrator\source\repos\intro_to_algorithms\x64\Debug\intro_to_algorithms.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
